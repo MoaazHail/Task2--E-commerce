@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/Public/Css/style.css">
+    <title>E-commerce</title>
+</head>
+
+<body>
+
+    <div class="active" id="active">
+        <i class="fa-solid fa-xmark close" id="close"></i>
+        <input type="search" class="search" id="search" placeholder="search">
+    </div>
+
+    <header>
+        <nav class="nav">
+            <div class="icon">My<span>Store</span></div>
+
+            <div class="hide">
+                <div class="filter">
+                    <select class="Category" id="categories-select">
+                        <option value="">all Categories</option>
+                        <option value="men's clothing">men's clothing</option>
+                        <option value="women's clothing">women's clothing</option>
+                        <option value="electronics">electronics</option>
+                        <option value="jewelery">jewelry</option>
+                    </select>
+                </div>
+    
+                <div class="price">
+                    <input type="number" placeholder="min price" class="min-price-input">
+                    <input type="number" placeholder="max price" class="max-price-input">
+                </div>
+    
+                <span class="btn" id="btn-filter">filter</span>
+    
+            </div>
+            
+            <i class="fa-solid fa-magnifying-glass icon" id="search-icon"></i>
+            <i class="fa-solid fa-cart-shopping icon" id="cart-icon"></i>
+        </nav>
+    </header>
+
+    <div class="btn-filter">
+        <div class="filter-icon"><i class="fa-solid fa-filter"></i></div>
+    </div>
+    <div class="filter-action">
+        <i class="fa-solid fa-xmark close"></i>
+        <div class="filter">
+            <select class="Category" id="categories-select">
+                <option value="">all Categories</option>
+                <option value="men's clothing">men's clothing</option>
+                <option value="women's clothing">women's clothing</option>
+                <option value="electronics">electronics</option>
+                <option value="jewelery">jewelry</option>
+            </select>
+        </div>
+
+        <div class="price">
+            <input type="number" placeholder="min price" class="min-price-input">
+            <input type="number" placeholder="max price" class="max-price-input">
+        </div>
+
+        <span class="btn" id="btn-filter">filter</span>
+    </div>
+
+    <div class="content" id="content">
+    </div>
+
+    <footer></footer>
+    <script src="/Public/Javascript/main.js"></script>
+</body>
+</html>
