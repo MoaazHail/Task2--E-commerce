@@ -1,4 +1,4 @@
-# Task1-E-commerce-filters
+# Task2-E-commerce-filters
 This is the README file for a basic E-commerce website built with HTML, CSS, and Vanilla JavaScript.
 
 ### Project Structure:
